@@ -9,7 +9,7 @@ export interface MensajeChat{
 export interface ConversacionChat{
     id:string,
     usuarioId:string,
-    mensajes:MensajeChat,
+    mensajes:MensajeChat[],
     ultimaActividad:Date,
     fechaCreacion:Date,
     titulo:string
